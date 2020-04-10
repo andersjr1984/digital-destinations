@@ -1,0 +1,62 @@
+.notLiked{
+  cursor: pointer;
+  color: black;
+}
+
+.liked {
+  cursor: pointer;
+  color: rgb(34, 116, 38);
+}
+
+.ind-post .btn-group {
+  width: 200px;
+}
+
+.ind-post .btn-group button {
+  width: 50%;
+}
+
+.ind-post .sort-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ind-reply {
+  text-align: left;
+  border: black 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  background: black;
+}
+
+.ind-reply .notLiked {
+  color: white;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1000;
+}
+
+.background img {
+  min-width: 100%;
+  height: 100%;
+  z-index: -1000;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.background .dark-opacity {
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.6);
+  z-index: -999;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

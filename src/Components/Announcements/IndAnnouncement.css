@@ -1,0 +1,19 @@
+.ind-announ .main-display,
+.ind-announ ol {
+  text-align: left;
+}
+
+.ind-announ {
+  background: grey;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.ind-announ img {
+  max-width: 95%;
+}
+
+.ind-announ li {
+  margin-top: 10px;
+}

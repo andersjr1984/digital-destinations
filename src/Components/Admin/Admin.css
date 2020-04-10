@@ -1,0 +1,16 @@
+.admin {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 95%;
+  margin:  65px auto;
+}
+
+.admin form {
+  width: 100%;
+}
+
+.admin .admin-nav {
+  margin: 10px;
+  align-self: center;
+}

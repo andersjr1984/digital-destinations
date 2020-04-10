@@ -1,0 +1,15 @@
+.user-table table tr {
+  height: 40px;
+}
+
+.user-table table {
+  width: 100%;
+}
+
+.user-table table td {
+  width: 33%;
+}
+
+.user-table table .spinHolderIcon {
+  margin: auto;
+}

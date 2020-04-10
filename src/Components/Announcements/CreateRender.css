@@ -1,0 +1,32 @@
+.item-accordion img {
+  margin: auto 10px;
+  padding: 5px;
+}
+
+.item-accordion .card-body {
+  text-align: left;
+}
+
+.item-accordion .display-item {
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.item-accordion .display-item .main-display {
+  padding: 10px 0;
+}
+
+.item-accordion .display-item img.logo {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.item-accordion .features img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.item-accordion ul.centered li {
+  list-style-type: none;
+  text-align: center;
+}

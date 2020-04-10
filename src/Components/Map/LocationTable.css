@@ -1,0 +1,37 @@
+.location-table {
+  width: 100%;
+}
+
+.location-table table {
+  height: 400px;
+}
+
+.location-table a {
+  text-decoration: none;
+  color: white;
+}
+
+.location-table a:hover {
+  cursor: pointer;
+  color: rgb(34, 116, 38);
+}
+
+.location-table .area-name-column {
+  width: calc(100% - 80px);
+}
+
+.location-table .sub-button-column {
+  width: 80px;
+}
+
+.location-table .sub-button-column button{
+  font-size: 10px;
+}
+
+.location-table .zoom-to-area:hover {
+  cursor: pointer;
+}
+
+.city-point:hover {
+  cursor: pointer;
+}

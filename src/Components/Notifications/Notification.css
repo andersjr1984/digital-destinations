@@ -1,0 +1,15 @@
+.notifications .alert {
+  display: flex;
+}
+
+.notifications .alert .alertNum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  border-right: solid black 1px;
+}
+
+.notifications .alert .message {
+  width: calc(100% - 40px);
+}

@@ -1,0 +1,24 @@
+.update-pro-pic .prev-pic-row img{
+  max-width: 100%;
+  max-height: 70%;
+  cursor: pointer;
+  border: black 1px solid;
+  padding: 10px;
+  margin-top: 5px;
+  object-fit: scale-down;
+}
+
+.update-pro-pic .prev-pic-row{
+  justify-content: space-around;
+}
+
+.update-pro-pic .prev-pic-row .current img{
+  background: rgb(148, 199, 151);
+}
+
+.update-pro-pic .prev-pic-row div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+}

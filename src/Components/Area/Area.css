@@ -1,0 +1,98 @@
+.area-page {
+  margin: 65px auto 0 auto;
+}
+
+.text-toggle:hover {
+  cursor: pointer;
+}
+
+.area-page .content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px auto auto auto;
+}
+
+.area-page .content .area-data,
+.area-page .content .images,
+.posts  {
+  width: 100%;
+}
+
+.area-page .content .area-data {
+  display: flex;
+  flex-direction: row;
+}
+
+.area-page .content .area-data h5 {
+  width: 33%;
+}
+
+.posts .rating {
+  justify-content: space-evenly;
+}
+
+.posts .image-selection {
+  max-width: 250px;
+  margin: auto;
+}
+
+.posts .image-selection .form-row {
+  margin: 5px;
+}
+
+.posts .submit-row button {
+  margin-left: auto;
+}
+
+.posts .image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.posts .image-row figure {
+  margin: 5px;
+}
+
+.posts .image-row img {
+  height: 150px;
+}
+
+.images {
+  margin-top: 10px;
+}
+
+.images .carousel-item img {
+  max-width:100%;
+  max-height:100%;
+  margin: auto;
+}
+
+.images .carousel-item {
+  height: 300px;
+  background: black;
+}
+
+.images .carousel-caption {
+  background: rgba(0,0,0,.4);
+  bottom: 0;
+  padding: 5px;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+
+.images .carousel-item h5 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.images .carousel-item p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.posts a {
+  color: rgb(148, 199, 151);
+}

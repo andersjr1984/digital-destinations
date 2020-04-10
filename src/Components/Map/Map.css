@@ -1,0 +1,79 @@
+path {
+  stroke: #333;
+  stroke-width: .5px;
+}
+
+.map {
+  width: 70%;
+}
+
+.map-container {
+  width: 100%;
+  overflow: hidden;
+  background: lightblue;
+  margin: 10px auto;
+}
+
+.state-boundary {
+  stroke: white;
+  fill: rgba(0,0,0,0)
+}
+
+.county-boundary {
+  stroke: grey;
+}
+
+.state-boundary:hover {
+  z-index: 1000;
+  stroke: purple;
+}
+
+.active {
+  stroke: white;
+  /* fill must be none to make county display work */
+  fill: none;
+}
+
+.active-city {
+  fill: blue;
+}
+
+.user-loc-zoom:hover {
+  cursor: pointer;
+}
+
+.zoomer {
+  display:flex;
+  margin-bottom: 5px;
+}
+
+.zoomer .btn {
+  margin-left: 5px;
+}
+
+.locations {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.loc-search .get-location {
+  width: 100%;
+}
+
+.loc-search table {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  div.home {
+    flex-direction: column-reverse;
+  }
+
+  .map,
+  .map .zoom-row,
+  .locations {
+    width: 100%;
+  }
+}

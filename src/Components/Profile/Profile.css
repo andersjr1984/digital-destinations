@@ -1,0 +1,44 @@
+.ind-profile .profile-content {
+  width: 100%;
+  display: flex;
+}
+
+.ind-profile .profile-content div {
+  width: 50%;
+}
+
+.ind-profile .posts .btn-group {
+  width: 200px;
+}
+
+.ind-profile .posts .btn-group button {
+  width: 50%;
+}
+
+.ind-profile .user-name form {
+  height: 100%;
+}
+
+.ind-profile .btn {
+  margin: 5px auto 5px auto;
+}
+
+.ind-profile .user-info .locations,
+.ind-profile .user-info .map .zoomer {
+  display: none;
+}
+
+.ind-profile .user-info .map-container {
+  width: 90%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .ind-profile .profile-content {
+    flex-direction: column-reverse;
+  }
+
+  .ind-profile .profile-content div {
+    width: 100%;
+  }
+}
