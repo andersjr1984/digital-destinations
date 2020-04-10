@@ -32,4 +32,4 @@ REACT_APP_FB_MEASUREMENT_ID=''
 - Deploy your functions using the custom script `npm run deploy-functions`
 - Start the app with `npm start`
 
-Then you can play around to your hearts content to improve this general to-do app!
+Then you can play around to your hearts content to improve this general travel blogging app!
