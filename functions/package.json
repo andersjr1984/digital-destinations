@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@braintree/sanitize-url": "^4.0.0",
-    "d3": "^5.11.0",
+    "d3": "^7.6.1",
     "firebase-admin": "^8.2.0",
     "firebase-functions": "^3.0.2",
     "request": "^2.88.0",
